@@ -16,3 +16,10 @@ This will install all the required dependencies mentioned in Package.json file.<
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br />
+<br />
+<br />
+
+# Live URL
+
+This assignment has been deployed to [AWS S3 bucket. Please click here to check the live demo](http://test-ormae.s3-website.ap-south-1.amazonaws.com/)
