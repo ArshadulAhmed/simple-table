@@ -1,0 +1,132 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+#root{
+  height: 100vh;
+}
+
+.main_layer{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.paginationMain {
+  display: flex;
+  justify-content: center;
+}
+.paginationMain button {
+    margin: 10px;
+    padding: 5px 20px;
+    background-color: #771796 !important;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+table.table_inner {
+    height: 50vh;
+}
+
+img.table_data_image {
+    max-width: 4rem;
+}
+
+table.table_inner {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+}
+
+thead {
+    background: #ccc;
+}
+tbody{
+  font-size: 0.7rem;
+}
+thead tr th {
+    padding: 10px;
+    color: #771796;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    min-width: 12rem;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+    background: #f1f1f1;
+}
+
+button.delete_button {
+    background: red;
+    border-color:red;
+}
+
+button.edit_button {
+    background: #3434a7;
+    border-color: #3434a7;
+    margin-left: 0.8rem;
+}
+.common_button{
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 0.5rem;
+    color: #fff;
+    font-size: 0.7rem;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+tbody tr:nth-child(1) td {
+    margin-top: 1rem;
+}
+tbody tr td {
+    padding: 0px 10px;
+}
+
+textarea.no_edit {
+    border: none;
+    background: transparent;
+    text-transform: capitalize;
+    word-break: break-all;
+    text-align: center;
+    width: 100%;
+}
+
+textarea.no_edit:focus {
+    outline: none;
+}
+
+textarea.allow_edit {
+    outline: none;
+    border: 1px solid green;
+    border-radius: 4px;
+}
+textarea{
+  resize: none;
+  overflow-x:hidden;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+td.loaderTR {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    color: #771796;
+    font-weight: bold;
+}
+.loading_items{
+    min-height: 480px;
+}
