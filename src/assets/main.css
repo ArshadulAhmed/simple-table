@@ -130,3 +130,11 @@ td.loaderTR {
 .loading_items{
     min-height: 480px;
 }
+
+
+@media(min-width:0px) and (max-width: 767px){
+.main_ {
+    max-width: 90%;
+    overflow-x: scroll;
+}
+}

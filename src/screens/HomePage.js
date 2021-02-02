@@ -67,7 +67,7 @@ function HomePage(props) {
 
   return (
     <React.Fragment>
-      <div justify="center">
+      <div justify="center" className="main_">
         <div className="table_main">
           <table className="table_inner">
             <thead>
