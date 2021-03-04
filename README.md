@@ -1,5 +1,3 @@
-# Assignment for ORMAE
-
 ## How to run this project on local environment
 
 ### ==> Clone this repo on your local.
